@@ -1,0 +1,95 @@
+html{
+  font-family: sans-serif;
+}
+header{
+  background-color: turquoise;
+  overflow: hidden;
+}
+h1{
+  font-size: 24px;
+  padding-left: 25px;
+  color: white;
+  float: left;
+}
+img{
+  max-width: 100%;
+}
+ul{
+  list-style-type: none;
+}
+.menu{
+  float: right;
+  display: inline-block;
+}
+.menuitem{
+  display: inline-block;
+  padding: 10px;
+}
+.first img {
+    /* overflow: hidden; */
+    height: 50%;
+    width: 50%;
+    /* display: inline-block; */
+    float: left;
+    margin-bottom: 5px;
+}
+
+.first {
+    overflow: hidden;
+    background: navy;
+    font-size: 29px;
+    color: white;
+}
+main{
+  display: inline-block;
+  text-align: center;
+  margin: 0 30%;
+}
+.second {
+    text-align: left;
+    padding: 20px 15px;
+    background-color: orange;
+}
+h3 {
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+.third{
+  text-align: left;
+  padding: 20px 15px;
+  overflow: hidden;
+  background-color: lightgrey;
+}
+
+.pics{
+  border: 5px solid black;
+  float: left;
+  width: 25%;
+  margin: 1%;
+}
+
+.yay{
+  display: inline-block;
+  padding: 0 40px;
+  color: hotpink;
+  font-size: 20px;
+}
+
+.fourth p{
+  color: white;
+}
+.fourth{
+  background-color: navy;
+  overflow: hidden;
+}
+footer{
+  background-color: turquoise;
+  overflow: hidden;
+  text-align: right;
+  padding: 10px;
+}
